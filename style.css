@@ -58,24 +58,33 @@ html,body{
 }
 
 #pbottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
     width: 100%;
     height: calc(100% - 10vh);
-
+    padding: 3vw 2vw;
 }
 
-#bubble{
-    color: #000;
+.bubble{
+    font-weight: 600;
+    color: #134600;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 6vh;
     height: 6vh;
-    background-color: rgba(227, 255, 254, 0.427);
+    background-color: rgba(179, 255, 179, 0.427);
     top: 0;
     left: 0;
     border-radius: 50%;
-    pointer-events: none;
-    /* box-shadow: 0 0 0.7vh #000000; */
     box-shadow: inset 6px 6px 10px 0 rgba(0,0,0,0.2),
     inset -6px -6px 10px 0 rgba(255 , 255 , 255 , 0.5);
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: #abce9d;
+    box-shadow: inset -6px -6px 10px 0 rgba(0,0,0,0.2),
+    inset 6px 6px 10px 0 rgba(255 , 255 , 255 , 0.5);
 }
