@@ -64,6 +64,9 @@ html,body{
     width: 100%;
     height: calc(100% - 10vh);
     padding: 3vw 2vw;
+    justify-content: center;
+    align-items: center;
+    color: #134600;
 }
 
 .bubble{
