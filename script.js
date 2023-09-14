@@ -8,7 +8,7 @@ function makeBubble() {
     document.querySelector('#pbottom').innerHTML = clutter;
 }
 
-var time = 3;
+var time = 30;
 function timer() {
     var timerinterval = setInterval(function () {
         if (time > 0) {
