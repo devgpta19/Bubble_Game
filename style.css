@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gilroy';
 }
 
 html,body{
@@ -19,8 +20,33 @@ html,body{
 }
 
 #panel{
+    color: white;
+    overflow: hidden;
     width: 80%;
     height: 80%;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
+}
+
+#ptop{
+    padding: 1vw 19vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(71, 93, 71);
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.box{
+    background-color: #ffffff;
+    color: rgb(24, 139, 66);
+    font-weight: 600;
+    padding: 0.5vw 1vw;
 }
