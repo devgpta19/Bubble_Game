@@ -44,9 +44,38 @@ html,body{
     gap: 1vw;
 }
 
+.elem h2{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
 .box{
     background-color: #ffffff;
     color: rgb(24, 139, 66);
     font-weight: 600;
+    font-size: 1.5vw;
     padding: 0.5vw 1vw;
+}
+
+#pbottom{
+    width: 100%;
+    height: calc(100% - 10vh);
+
+}
+
+#bubble{
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vh;
+    height: 6vh;
+    background-color: rgba(227, 255, 254, 0.427);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    /* box-shadow: 0 0 0.7vh #000000; */
+    box-shadow: inset 6px 6px 10px 0 rgba(0,0,0,0.2),
+    inset -6px -6px 10px 0 rgba(255 , 255 , 255 , 0.5);
 }
