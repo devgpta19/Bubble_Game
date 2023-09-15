@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +18,7 @@ html,body{
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: rgb(182, 215, 182);
+    background-color: rgb(255, 247, 234);
 }
 
 #panel{
@@ -28,14 +30,18 @@ html,body{
     border-radius: 10px;
 }
 
+#gameover{
+    color: rgb(192, 102, 0);
+}
+
 #ptop{
     padding: 1vw 19vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 10vh;
-    background-color: rgb(71, 93, 71);
+    height: 15vh;
+    background-color: rgb(255, 136, 0);
 }
 
 .elem{
@@ -45,16 +51,20 @@ html,body{
 }
 
 .elem h2{
-    font-weight: 400;
-    font-size: 1.5vw;
+    font-weight: 500;
+    font-size: 2.5vw;
 }
 
 .box{
     background-color: #ffffff;
     color: rgb(24, 139, 66);
-    font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     padding: 0.5vw 1vw;
+    font-family: 'Handjet';
+    font-weight: 500;
+    box-shadow: inset 6px 6px 10px 0 rgba(0,0,0,0.2),
+    inset -6px -6px 10px 0 rgba(255 , 255 , 255 , 0.5);
+    border-radius: 10px;
 }
 
 #pbottom{
@@ -67,6 +77,7 @@ html,body{
     justify-content: center;
     align-items: center;
     color: #134600;
+    background-color:rgb(255, 243, 207);
 }
 
 .bubble{
@@ -90,4 +101,32 @@ html,body{
     background-color: #abce9d;
     box-shadow: inset -6px -6px 10px 0 rgba(0,0,0,0.2),
     inset 6px 6px 10px 0 rgba(255 , 255 , 255 , 0.5);
+}
+
+#btn{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    color: #000;
+}
+
+span{
+    color: rgb(255, 136, 0);
+}
+
+button{
+    border: none;
+    height: 10vh;
+    width: 15vw;
+    background-color: rgb(255, 136, 0);
+    color: whitesmoke;
+    font-size: 2vw;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 10px 0 rgba(0,0,0,0.2),
+    inset -6px -6px 10px 0 rgba(255 , 255 , 255 , 0.5);
 }
